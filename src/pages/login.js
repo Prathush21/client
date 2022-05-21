@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default function Login() {
   return(
@@ -12,7 +13,7 @@ export default function Login() {
         <input type="password" />
       </label>
       <div>
-        <button type="submit">Submit</button>
+        <Button >Submit</Button>
       </div>
     </form>
   )
